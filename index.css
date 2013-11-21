@@ -14,15 +14,20 @@ a:hover {
 	color: #740F91;
 }
 
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #name-banner {
   color: white;
   font-size: 25pt;
   letter-spacing: 2px;
   text-shadow: 0px 0px 1px #0c078f;
   padding: 5px;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 60px;
-  background-color: #73350B;
+  background-color: #852607;
 }
 
 #resume-link {
@@ -34,40 +39,39 @@ a:hover {
 }
 
 
-#projects-sidebar {
+#left-sidebar {
   float: left;
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
   margin-top: 10px;
   margin-left: 0px;
-  border-right: solid;
-  border-width: 2px;
-  border-color: #353436;
+  background-color: white;
 }
 
-ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+/*#portrait {
+  margin: 5px;
+  background-color: white;
+}*/
 
-#sidebar-banner {
+/*#sidebar-banner {
   color: white;
   letter-spacing: 1px;
   padding: 2px;
   padding-left: 10px;
   padding-right: 10px;
   text-shadow: 0px 0px 1px #0c078f;
+  max-width: 200px;
   background-color: #73350B;
-}
+}*/
 
 #right-content {
   float: left;
   margin: 5px;
   margin-top: 10px;
+  max-width: 600px;
 }
 
 .section {
-  text-indent: 10px;
   margin: 5px;
   min-width: 600px;
 }
@@ -80,7 +84,22 @@ ul {
   padding-right: 10px;
   margin: 5px;
   text-shadow: 0px 0px 1px #0c078f;
-  background-color: #73350B;
+  background-color: #852607;
+}
+
+.section-text {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-text a:link, .section-text a:visited {
+  text-decoration: underline;
+  color: #353436;
+}
+
+.section-text a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .big-round-corners {
