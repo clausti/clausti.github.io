@@ -30,14 +30,18 @@ ul {
   background-color: #99120d;
 }
 
+#email-link {
+  font-size: 12pt;
+}
+#github-link {
+  font-size: 12pt;
+}
+#linkedin-link {
+  font-size: 12pt;
+}
 #resume-link {
   font-size: 12pt;
 }
-
-#contact-link {
-  font-size: 12pt;
-}
-
 
 #left-sidebar {
   float: left;
